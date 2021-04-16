@@ -11,7 +11,7 @@ interface IInput {
 	error?: boolean,
 	errorText?: string,
 	placeholder?: string,
-	type?: "password" | "number" | "search",
+	type?: "password" | "number" | "search" | "date" | "email",
 	styleProp?: IStyles,
 	onChange?: React.ChangeEventHandler<HTMLTextAreaElement | HTMLInputElement> | undefined
 }
